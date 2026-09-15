@@ -107,7 +107,7 @@ export default function Home() {
         <header className="topbar"><div className="mobile-brand"><span className="brand-mark">P</span><strong>portfolio<span className="brand-dot">.</span></strong></div><div className="topbar-actions"><button className="toolbar-button" onClick={refresh}><Icon name="refresh" size={17} /></button><a href="#notifications" className="toolbar-button"><Icon name="bell" size={17} /></a></div></header>
 
         <div className="page-wrap" id="overview">
-          <div className="page-heading"><div><p className="eyebrow">Tuesday, 24 September 2024</p><h1>Good morning, samarth.</h1><p className="heading-subtitle">Here\'s what\'s happening with your investments</p></div></div>
+          <div className="page-heading"><div><p className="eyebrow">Tuesday, 24 September 2024</p><h1>Good morning, samarth.</h1><p className="heading-subtitle">Here&apos;s what&apos;s happening with your investments</p></div></div>
 
           <div className="metric-grid">
             <article className="metric-card featured"><div className="metric-top"><span className="metric-label">Total portfolio value</span><span className="metric-icon mint"><Icon name="chart" size={18} /></span></div><div className="metric-value">{formatCurrency(totals.presentValue)}</div><span className={`metric-change ${gainPercent >= 0 ? 'positive' : 'negative'}`}>{gainPercent >= 0 ? '+' : ''}{gainPercent.toFixed(1)}%</span></article>
