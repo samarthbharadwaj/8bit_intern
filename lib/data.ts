@@ -1,5 +1,5 @@
 import React from "react";
-import { portfolioData } from "./dataset";
+import { holdings } from "./types";
 
 export default function PortfolioTable() {
   return (
@@ -13,7 +13,7 @@ export default function PortfolioTable() {
         </tr>
       </thead>
       <tbody>
-        {portfolioData.map((stock, i) => (
+        {holdings.map((stock, i) => (
           <tr key={i}>
             <td>{stock.particulars}</td>
             <td>{stock.purchasePrice}</td>
