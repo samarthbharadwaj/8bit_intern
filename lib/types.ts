@@ -6,7 +6,7 @@ export type Stock = {
   exchange: string;
   cmp: number;
   peRatio: number;
-  latestEarnings: number;
+  latestEarnings: number | string;
 };
 
 export const holdings: Stock[] = [
