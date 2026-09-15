@@ -7,6 +7,7 @@ export default function PortfolioTable() {
       <thead>
         <tr>
           <th>Stock</th>
+          {/* eslint-disable-next-line */}
           <th>Purchase Price</th>
           <th>Qty</th>
           <th>CMP</th>
